@@ -9,3 +9,8 @@
 3. On the server preform a `composer install -o`. This will install the dependencies and optimize the autoloader
 
 **Note:** On production make sure the `APP_ENV` is set to `prod` to avoid unnecessary information leaks.
+
+## Dropbox App Configuration
+
+The [Dropbox App](https://www.dropbox.com/developers/apps) needs to have a **Redirect URL**.
+This should be: `https://full-url-of-the-app.com/dropbox/endpoint`.
