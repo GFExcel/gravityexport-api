@@ -1,4 +1,4 @@
-# Gravity Export API
+# GravityExport API
 
 ## Installation Guide
 
